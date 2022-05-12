@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marinduque Spotted</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navbar">
+        <img src="images/background.jpg" class="background">
+        <nav>
+          <ul id="menuList">
+            <li><a href="history.html"><b>HISTORY</b></a></li>
+            <li><a href="spotted.html"><b>SPOTTED</b></a></li>
+            <li><a href="contact.html"><b>CONTACT US</b></a></li>
+            <li><a href=""><b>OTHERS</b></a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+      </div>
+      <div class="nav1">
+        <h2>Welcome Kabayan,</h2>
+        <h5>to the most tourists spotted places in Marinduque</h5>
+      </div>
+      <div class="nav2">
+        <img src="images/map.jpg">
+      </div>
+      <div class="nav3">
+        <h2>Moriones Festival</h2>
+        <img src="images/moriones.jpg">
+        <p1><h3>What about "Moriones Festival?"</h3></p1>
+        <p>The Moriones is a lenten festival held annually on Holy Week on the island of Marinduque, Philippines. The "Moriones" are men and women in costumes and masks replicating the garb of biblical Imperial and Royal Roman soldiers as interpreted by locals. The Moriones tradition has inspired the creation of other festivals in the Philippines where cultural practices is turned into street festivals. It is a colorful festival celebrated on the island of Marinduque in the Philippines. The participants use morion masks to depict the Roman soldiers and Syrian mercenaries within the story of the Passion of the Christ. The mask was named after the 16th and 17th century Morion helmet. The Moriones refers to the masked and costumed penitents who march around the town for seven days searching for Longinus. Morions roam the streets in town from Holy Monday to Easter Sunday scaring the kids, or engaging in antics or surprises to draw attention. This is a folk-religious festival that re-enacts the story of Saint Longinus, a Roman centurion who was blind in one eye. The festival is characterized by colorful Roman costumes, painted masks and helmets, and brightly colored tunics.</p>
+      </div>
+      <div class="social-links">
+        <img src="images/fb.png">
+        <img src="images/tw.png">
+        <img src="images/ig.png">
+        <p><b>"Parini na baya sa amin at magsaya sa puso ng Pilipinas"</b></p>
+      </div>
+    </div>
+    <script>
+      var menuList = document.getElementById("menuList");
+      
+      menuList.style.maxHeight="0px";
+      
+      function togglemenu(){
+        if(menuList.style.maxHeight=="0px")
+        {
+          menuList.style.maxHeight="130px"
+        }
+        else
+        {
+          menuList.style.maxHeight=="0px"
+        }
+      }
+      
+    </script>
+  </body>
+</html>
